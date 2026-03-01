@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WallSynq — Your Desktop, Alive With Music</title>
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">
+    <div class="nav-logo-mark">🎵</div>
+    WallSynq
+  </a>
+  <ul class="nav-links">
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#showcase">See It Live</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#platforms">Platforms</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">Join Waitlist →</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+
+  <div class="hero-eyebrow">
+    <div class="eyebrow-dot"></div>
+    COMING SOON TO WINDOWS
+  </div>
+
+  <h1>Your desktop,<br><em>alive</em> with <strong>music.</strong></h1>
+
+  <p class="hero-sub">
+    WallSynq connects to Spotify or YouTube Music and automatically sets your album art as your desktop wallpaper — switching live with every song.
+  </p>
+
+  <div class="hero-actions">
+    <button class="btn-primary" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">
+      🎯 Join the Waitlist — Free
+    </button>
+    <a class="btn-secondary" href="#showcase">See it in action ↓</a>
+  </div>
+
+  <div class="hero-count">
+    <span id="heroCount">0</span> people already waiting
+  </div>
+
+  <div class="platforms-bar">
+    <div class="platform-pill"><div class="dot dot-green"></div> Spotify</div>
+    <div class="platform-pill"><div class="dot dot-red"></div> YouTube Music</div>
+    <div class="platform-pill"><div class="dot dot-gray"></div> Apple Music — Soon</div>
+    <div class="platform-pill">🖥 Windows 10 & 11</div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label accent">HOW IT WORKS</div>
+      <h2 class="section-title">Three steps.<br><em>Then it just works.</em></h2>
+      <p class="section-sub">No complicated setup. WallSynq runs silently in your system tray while you focus on what matters.</p>
+    </div>
+
+    <div class="steps-grid reveal">
+      <div class="step-card">
+        <div class="step-num">STEP 01</div>
+        <span class="step-icon">🔗</span>
+        <div class="step-title">Connect your platform</div>
+        <p class="step-body">Sign in with Spotify or YouTube Music in one click. WallSynq only gets read-only access to what's currently playing. Your data stays yours.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">STEP 02</div>
+        <span class="step-icon">▶️</span>
+        <div class="step-title">Play music like always</div>
+        <p class="step-body">Open your favourite playlist and hit play. WallSynq runs quietly in the background — you'll forget it's even there.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">STEP 03</div>
+        <span class="step-icon">🖼</span>
+        <div class="step-title">Watch your desktop transform</div>
+        <p class="step-body">Every new song pulls its album art and sets it as your wallpaper — with a smooth cross-fade. Your desktop tells the story of what you're listening to.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE — With Taskbar -->
+<section id="showcase" class="showcase-section">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label accent">SEE IT IN ACTION</div>
+      <h2 class="section-title"><strong>Your desktop.</strong><br><em>Three songs. Three worlds.</em></h2>
+      <p class="section-sub">This is exactly what your screen looks like with WallSynq running — down to the taskbar.</p>
+    </div>
+<!-- Top 2-col -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:56px" class="reveal">
+
+      <!-- DESIGN 01 — Pop Smoke -->
+      <div class="desktop-frame">
+        <!-- Screen area -->
+        <div class="desktop-screen" style="aspect-ratio:16/9">
+          <img src="https://raw.githubusercontent.com/KrishnaKakad16/WallSynq-assist/b922cd79792468c0d1c598eb1f075cc5dda625e6/Desktop%20-%202.jpg" 
+          style="image-rendering:high-quality;" 
+          loading="lazy">
+          <div class="mock-overlay"></div>
+          <div class="live-pill">
+            <div style="width:5px;height:5px;background:#c8ff00;border-radius:50%;animation:pulse-g 1.5s ease-in-out infinite"></div>
+            <span style="color:#c8ff00">WallSynq LIVE</span>
+          </div>
+          <div class="design-tag">01 — POSTER</div>
+          <div class="screen-bottom">
+            <div class="song-meta">
+              <div class="song-title" style="font-size:11px">Snitching (feat. Quavo & Future)</div>
+              <div class="song-sub">Pop Smoke · Shoot for the Stars</div>
+              
+            </div>
+            <div class="platform-tag">🎵 SPOTIFY</div>
+          </div>
+        </div>
+        <!-- Windows 11 Taskbar -->
+        
+      </div>
+
+      <!-- DESIGN 02 — The Weeknd -->
+      <div class="desktop-frame">
+        <div class="desktop-screen" style="aspect-ratio:16/9">
+          <img src="https://raw.githubusercontent.com/KrishnaKakad16/WallSynq-assist/b922cd79792468c0d1c598eb1f075cc5dda625e6/Desktop%20-%203.jpg" style="image-rendering:high-quality;" 
+          loading="lazy">
+          <div class="mock-overlay"></div>
+          <div class="live-pill">
+            <div style="width:5px;height:5px;background:#c8ff00;border-radius:50%;animation:pulse-g 1.5s ease-in-out infinite"></div>
+            <span style="color:#c8ff00">WallSynq LIVE</span>
+          </div>
+          <div class="design-tag">02 — VIVID</div>
+          <div class="screen-bottom">
+            <div class="song-meta">
+              <div class="song-title" style="font-size:11px">Timeless</div>
+              <div class="song-sub">The Weeknd & Playboi Carti · Hurry Up Tomorrow</div>
+              
+            </div>
+            <div class="platform-tag">🎵 SPOTIFY</div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Bottom full-width -->
+    <div style="margin-top:20px" class="reveal">
+      <div class="desktop-frame">
+        <div class="desktop-screen" style="aspect-ratio:21/8">
+          <img src="https://github.com/KrishnaKakad16/WallSynq-assist/blob/main/Desktop%20-%204.jpg?raw=true"style="image-rendering:high-quality;" 
+          loading="lazy"  >
+          <div class="mock-overlay"></div>
+          <div class="live-pill">
+            <div style="width:6px;height:6px;background:#c8ff00;border-radius:50%;animation:pulse-g 1.5s ease-in-out infinite"></div>
+            <span style="color:#c8ff00;font-size:8px">WallSynq LIVE</span>
+          </div>
+          <div class="design-tag">03 — EDITORIAL</div>
+          <div class="screen-bottom">
+            <div class="song-meta">
+              <div class="song-title" style="font-size:14px">505</div>
+              <div class="song-sub">Arctic Monkeys · Favourite Worst Nightmare</div>
+              
+            </div>
+            <div style="display:flex;gap:8px;flex-shrink:0;margin-left:20px">
+              <div class="platform-tag">🎵 SPOTIFY</div>
+              <div style="background:rgba(200,255,0,0.08);border:1px solid rgba(200,255,0,0.2);border-radius:6px;padding:5px 10px;font-family:'Space Mono',monospace;font-size:7px;color:#c8ff00">CROSS-FADE ✓</div>
+            </div>
+          </div>
+        </div>
+        <!-- Full taskbar -->
+        
+      </div>
+    </div>
+
+    <!-- Caption strip -->
+    <div style="display:flex;align-items:center;justify-content:center;gap:28px;margin-top:24px;padding:16px 24px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:12px;flex-wrap:wrap" class="reveal">
+      <div style="display:flex;align-items:center;gap:7px;font-size:0.75rem;color:var(--muted);font-family:'Space Mono',monospace"><span style="color:var(--accent)">✦</span> Real Windows 11 taskbar</div>
+      <div style="width:1px;height:14px;background:var(--border)"></div>
+      <div style="display:flex;align-items:center;gap:7px;font-size:0.75rem;color:var(--muted);font-family:'Space Mono',monospace"><span style="color:var(--accent)">✦</span> WallSynq lives in your system tray</div>
+      <div style="width:1px;height:14px;background:var(--border)"></div>
+      <div style="display:flex;align-items:center;gap:7px;font-size:0.75rem;color:var(--muted);font-family:'Space Mono',monospace"><span style="color:var(--accent)">✦</span> Soundbar syncs to the beat</div>
+      <div style="width:1px;height:14px;background:var(--border)"></div>
+      <div style="display:flex;align-items:center;gap:7px;font-size:0.75rem;color:var(--muted);font-family:'Space Mono',monospace"><span style="color:var(--accent)">✦</span> Switches live with every song</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label accent">FEATURES</div>
+      <h2 class="section-title">Built for people who<br><em>actually listen.</em></h2>
+    </div>
+
+    <div class="features-grid reveal">
+      <div class="feature-card">
+        <div class="feat-icon" style="background:rgba(139,92,246,0.1);border-color:rgba(139,92,246,0.2)">🎨</div>
+        <div class="feat-title">Album art, full screen</div>
+        <p class="feat-body">Every album has a visual world behind it.  puts that artwork exactly where you'll see it — your desktop background.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" style="background:rgba(200,255,0,0.08);border-color:rgba(200,255,0,0.15)">🔄</div>
+        <div class="feat-title">Real-time auto switching</div>
+        <p class="feat-body">Song changes? Desktop changes. Automatically, instantly. WallSynq polls your music so you never have to touch a setting.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" style="background:rgba(6,182,212,0.1);border-color:rgba(6,182,212,0.2)">✨</div>
+        <div class="feat-title">Smooth cross-fade</div>
+        <p class="feat-body">No jarring flickers. Every wallpaper change uses a cinematic cross-fade so your desktop always feels intentional.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" style="background:rgba(29,185,84,0.1);border-color:rgba(29,185,84,0.2)">🎵</div>
+        <div class="feat-title">Your existing playlists</div>
+        <p class="feat-body">No need to rebuild your library. Keep using Spotify or YouTube Music exactly as you do today — WallSynq just listens.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.2)">🖥</div>
+        <div class="feat-title">Multi-monitor support</div>
+        <p class="feat-body">Running two or three screens? Sync the same artwork across all of them, or configure each display individually.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon" style="background:rgba(236,72,153,0.1);border-color:rgba(236,72,153,0.2)">⚙️</div>
+        <div class="feat-title">Lives in your system tray</div>
+        <p class="feat-body">WallSynq doesn't clutter your taskbar. It sits in the system tray using minimal CPU — a ghost on your system.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLATFORMS -->
+<section id="platforms" style="border-top:1px solid var(--border)">
+  <div class="section-inner" style="padding-top:80px;padding-bottom:80px">
+    <div class="reveal" style="text-align:center">
+      <div class="section-label accent" style="text-align:center">PLATFORM SUPPORT</div>
+      <h2 class="section-title" style="text-align:center">Works with the music<br><em>you already listen to.</em></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:48px" class="reveal">
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px 20px;text-align:center">
+        <div style="font-size:2rem;margin-bottom:12px">🎵</div>
+        <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">Spotify</div>
+        <div style="font-size:0.75rem;color:#1DB954;font-family:'Space Mono',monospace">✓ SUPPORTED</div>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px 20px;text-align:center">
+        <div style="font-size:2rem;margin-bottom:12px">▶️</div>
+        <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">YouTube Music</div>
+        <div style="font-size:0.75rem;color:#1DB954;font-family:'Space Mono',monospace">✓ SUPPORTED</div>
+      </div>
+      <div style="background:var(--card);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px 20px;text-align:center;opacity:0.5">
+        <div style="font-size:2rem;margin-bottom:12px">🍎</div>
+        <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">Apple Music</div>
+        <div style="font-size:0.75rem;color:var(--muted);font-family:'Space Mono',monospace">COMING SOON</div>
+      </div>
+      <div style="background:var(--card);border:1px solid rgba(255,255,255,0.04);border-radius:14px;padding:28px 20px;text-align:center;opacity:0.5">
+        <div style="font-size:2rem;margin-bottom:12px">📦</div>
+        <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">Amazon Music</div>
+        <div style="font-size:0.75rem;color:var(--muted);font-family:'Space Mono',monospace">COMING SOON</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- WAITLIST -->
+<section id="waitlist" class="waitlist-section">
+  <div class="waitlist-inner">
+    <div class="reveal">
+      <div class="count-badge">
+        <div class="eyebrow-dot"></div>
+        <span id="badgeCount">0</span> PEOPLE ON THE WAITLIST
+      </div>
+      <div class="section-label accent" style="text-align:center">EARLY ACCESS</div>
+      <h2 class="section-title" style="text-align:center">Your desktop has been<br><em>boring for too long.</em></h2>
+      <p class="section-sub" style="margin:16px auto 0">Drop your name and email — get first access the moment WallSynq launches.</p>
+      <div class="waitlist-perks">
+        <div class="perk"><div class="perk-check">✓</div> First access on launch</div>
+        <div class="perk"><div class="perk-check">✓</div> Free Pro for first 500</div>
+        <div class="perk"><div class="perk-check">✓</div> Shape the roadmap</div>
+      </div>
+      <form id="waitlistForm" style="display:flex;flex-direction:column;gap:10px;margin-bottom:16px">
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <input class="email-input" type="text" id="wlName" placeholder="Your name" required style="flex:1;min-width:130px">
+          <input class="email-input" type="email" id="wlEmail" placeholder="your@email.com" required style="flex:2;min-width:190px">
+        </div>
+        <button class="submit-btn" type="submit" id="wlBtn">Join the Waitlist →</button>
+      </form>
+      <div id="wlMsg" style="display:none;text-align:center;padding:12px 16px;border-radius:8px;font-family:'Space Mono',monospace;font-size:0.78rem;margin-bottom:12px"></div>
+      <p class="form-note">No spam. One email when we launch. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section style="background:var(--bg);border-top:1px solid var(--border)">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label accent">EARLY REACTIONS</div>
+      <h2 class="section-title">What people<br><em>are saying.</em></h2>
+      <p class="section-sub">Share your honest reaction — what you'd love, what you'd change.</p>
+    </div>
+    <div id="reviewsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:48px" class="reveal"></div>
+    <div id="noReviewsState" style="text-align:center;padding:56px 20px;color:var(--muted);background:var(--card);border:1px solid var(--border);border-radius:14px;margin-top:24px;display:none">
+      <div style="font-size:2.5rem;margin-bottom:14px">💬</div>
+      <div style="font-weight:600;color:var(--soft);margin-bottom:6px">No reactions yet</div>
+      <div style="font-size:0.82rem">Be the first to share your thoughts below</div>
+    </div>
+    <!-- Review form -->
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin-top:36px" class="reveal">
+      <div style="font-size:1rem;font-weight:600;margin-bottom:20px">Leave your reaction 💬</div>
+      <form id="reviewForm">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
+          <input class="form-input" type="text" id="rvName" placeholder="Your name" required>
+          <input class="form-input" type="text" id="rvHandle" placeholder="@handle or city (optional)">
+        </div>
+        <div style="margin-bottom:14px">
+          <div style="font-size:0.72rem;color:var(--muted);font-family:'Space Mono',monospace;letter-spacing:0.8px;margin-bottom:8px">RATING</div>
+          <div id="starPicker" style="display:flex;gap:4px">
+            <button type="button" class="star-btn" data-s="1">★</button>
+            <button type="button" class="star-btn" data-s="2">★</button>
+            <button type="button" class="star-btn" data-s="3">★</button>
+            <button type="button" class="star-btn" data-s="4">★</button>
+            <button type="button" class="star-btn" data-s="5">★</button>
+          </div>
+        </div>
+        <textarea class="form-input" id="rvText" placeholder="What do you think about WallSynq? What feature would make it perfect for you?" required style="width:100%;min-height:90px;resize:vertical;margin-bottom:14px"></textarea>
+        <button type="submit" id="rvBtn" style="background:var(--accent);color:#000;border:none;padding:12px 24px;border-radius:8px;font-family:'Space Mono',monospace;font-size:0.75rem;font-weight:700;cursor:pointer;transition:all 0.2s">Post Reaction →</button>
+        <div id="rvMsg" style="display:none;margin-top:10px;padding:10px;border-radius:6px;font-family:'Space Mono',monospace;font-size:0.75rem;text-align:center"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">🎵 WallSynq — Your desktop, alive with music.</div>
+  <ul class="footer-links">
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms of Use</a></li>
+    <li><a href="#">Twitter / X</a></li>
+    <li><a href="#">Product Hunt</a></li>
+    <li><a href="#" id="adminLink" style="color:var(--muted);text-decoration:none">Admin ↗</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 WallSynq</div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lb" style="display:none;position:fixed;inset:0;z-index:9000;background:rgba(0,0,0,0.94);backdrop-filter:blur(20px);align-items:center;justify-content:center;cursor:zoom-out;padding:20px">
+  <button id="lbClose" style="position:fixed;top:18px;right:22px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.15);color:#fff;width:40px;height:40px;border-radius:50%;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center">✕</button>
+  <img id="lbImg" style="max-width:95vw;max-height:90vh;border-radius:12px;box-shadow:0 40px 100px rgba(0,0,0,0.8);cursor:default;animation:lbIn 0.22s ease" onclick="event.stopPropagation()">
+  <div id="lbCap" style="position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.6);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:6px 18px;font-family:'Space Mono',monospace;font-size:0.7rem;color:rgba(255,255,255,0.6);white-space:nowrap"></div>
+</div>
+<!-- ADMIN GATE -->
+<div id="adminGate" style="display:none;position:fixed;inset:0;z-index:9500;background:rgba(0,0,0,0.88);backdrop-filter:blur(16px);align-items:center;justify-content:center">
+  <div style="background:var(--card);border:1px solid var(--border);border-radius:18px;padding:44px 40px;width:340px;text-align:center">
+    <div style="font-size:2rem;margin-bottom:10px">🔐</div>
+    <div style="font-family:'Space Mono',monospace;font-weight:700;font-size:0.88rem;letter-spacing:1px;margin-bottom:4px">ADMIN ACCESS</div>
+    <div style="font-size:0.8rem;color:var(--muted);margin-bottom:26px">WallSynq Dashboard</div>
+    <input id="adminPw" type="password" placeholder="Password" class="email-input" style="text-align:center;letter-spacing:6px;margin-bottom:12px">
+    <button id="adminEnter" style="width:100%;background:var(--accent);color:#000;border:none;padding:13px;border-radius:9px;font-family:'Space Mono',monospace;font-size:0.8rem;font-weight:700;cursor:pointer;margin-bottom:10px">ENTER →</button>
+    <button id="adminCancel" style="width:100%;background:transparent;border:1px solid var(--border);color:var(--muted);padding:11px;border-radius:9px;font-family:'Space Mono',monospace;font-size:0.75rem;cursor:pointer">Cancel</button>
+    <div id="adminErr" style="display:none;color:#ff6b6b;font-size:0.75rem;margin-top:12px;font-family:'Space Mono',monospace">❌ Wrong password</div>
+  </div>
+</div>
+
+<!-- ADMIN PANEL -->
+<div id="adminPanel" style="display:none;position:fixed;inset:0;z-index:9400;background:var(--bg);overflow-y:auto">
+  <div style="background:var(--surface);border-bottom:1px solid var(--border);padding:18px 40px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10">
+    <div style="display:flex;align-items:center;gap:10px;font-family:'Space Mono',monospace;font-size:0.88rem;font-weight:700">
+      <div style="background:var(--accent);color:#000;width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px">🎵</div>
+      WallSynq Admin
+    </div>
+    <div style="display:flex;gap:10px">
+      <button id="exportBtn" style="background:var(--accent);color:#000;border:none;padding:9px 20px;border-radius:8px;font-family:'Space Mono',monospace;font-size:0.72rem;font-weight:700;cursor:pointer">⬇ Export CSV</button>
+      <button id="adminClose" style="background:transparent;border:1px solid var(--border);color:var(--soft);padding:9px 18px;border-radius:8px;font-family:'Space Mono',monospace;font-size:0.72rem;cursor:pointer">✕ Close</button>
+    </div>
+  </div>
+  <div style="padding:40px;max-width:1100px;margin:0 auto">
+    <div id="adminSyncStatus" style="margin-bottom:20px"></div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:32px" id="adminStats"></div>
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:32px">
+      <div style="font-family:'Space Mono',monospace;font-size:0.68rem;letter-spacing:2px;color:var(--muted);margin-bottom:16px">SIGNUPS — LAST 7 DAYS</div>
+      <div id="adminChart" style="display:flex;align-items:flex-end;gap:8px;height:80px"></div>
+    </div>
+    <div id="adminSignupsTable" style="background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:32px"></div>
+    <div id="adminReviewsTable" style="background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden"></div>
+  </div>
+</div>
+<!-- Hidden iframe for CORS-free form submission to Google Apps Script -->
+<iframe name="gsTarget" style="display:none"></iframe>
+<form id="gsForm" method="POST" target="gsTarget" style="display:none">
+  <input name="payload" id="gsPayload">
+</form>
+  <script src="script.js"></script>
+</body>
+</html>
